@@ -41,6 +41,11 @@ namespace WebHipHop.Controllers
         {
             return View();
         }
+
+        public ActionResult SongDetail()
+        {
+            return View();
+        }
         public ActionResult Mixtapes()
         {
             return View();

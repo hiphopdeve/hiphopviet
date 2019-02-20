@@ -43,6 +43,12 @@ namespace WebHipHop
               namespaces: new[] { "WebHipHop.Main.Controllers" }
            ).DataTokens.Add("Area", "Main");
             routes.MapRoute(
+              name: "songdetail",
+              url: "bai-hat-chi-tiet",
+              defaults: new { controller = "Home", action = "SongDetail" },
+             namespaces: new[] { "WebHipHop.Main.Controllers" }
+          ).DataTokens.Add("Area", "Main");
+            routes.MapRoute(
                  name: "songs",
                  url: "bai-hat",
                  defaults: new { controller = "Home", action = "Songs" },

@@ -171,6 +171,7 @@
     </Content>
     <Content Include="Areas\Main\Views\Home\ArtistDetail.cshtml" />
     <Content Include="Areas\Main\Views\Home\VideoDetail.cshtml" />
+    <Content Include="Areas\Main\Views\Home\SongDetail.cshtml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
