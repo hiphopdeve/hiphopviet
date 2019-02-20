@@ -32,6 +32,11 @@ namespace WebHipHop.Controllers
             return View();
         }
 
+        public ActionResult NewDetail()
+        {
+            return View();
+        }
+
         public ActionResult Top100()
         {
             return View();
